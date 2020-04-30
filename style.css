@@ -1,0 +1,275 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;    
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*header start*/
+.main-title {    
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-family: "Playfair Display", Arial, sans-serif;    
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    font-style: inherit;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav li {
+    height: 120px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 15px;
+    line-height: 18px;    
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: inherit;
+}
+/*header end*/
+
+/*promo start*/
+.promo {
+    width: 100%;
+    height: 464px;
+    background-color: #000000;
+    background-image: url("../img/Hotel-11.jpg");
+}
+
+.promo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.promo-img {
+    margin: 0 auto;
+    margin-top: 38px;
+}
+
+.promo h2 {
+    margin-top: 23px;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo-discription {
+    margin: 0 auto;
+    margin-top: 52px;
+    width: 455px;
+}
+
+.promo p {
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*promo end*/
+
+/*reviews start*/
+
+.reviews h2 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.reviews-list li {
+    margin: 29px;
+}
+
+.reviews-item h3 {
+    font-family: "Playfair Display", Arial, sans-serif;     
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+
+.reviews-item:nth-child(2) h3 {
+    color: #FF7931;
+}
+
+.reviews-item p {
+    line-height: 21px;
+}
+
+/*reviews end*/
+
+/*offers start*/
+
+.offers {
+    width: 100%;
+    height: 556px;
+    background-color: #f7f7f7;
+}
+
+.offers .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    position: reletive; 
+}
+
+.offers .container::before {
+    content: "";
+    position: absolute;
+    width:600px;
+    height:600px;
+    
+    background-color: white;
+  /*  z-index: -1; */
+    border-radius: 50%;
+    left: 20%;
+
+    }
+    
+.offers .sub-title {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.offers-item h3 {
+    font-family: "Playfair Display", Arial, sans-serif;   
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.offers-item p {
+    line-height: 21px;
+    text-align: center;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF7931;
+    width: 170px;
+    height: 47px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18px;
+}
+
+/*offers end*/
+
+/*footer start*/
+
+.main-footer {
+    background-color: #575757;
+}
+
+.main-footer h2 {
+    font-family: "Playfair Display", Arial, sans-serif;   
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main-footer-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-footer-nav li {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 42px;
+    width: 180px;
+    
+    
+}
+
+.footer-social div {
+    width: 47px;
+    height: 47px;
+    background: #FFFFFF;   
+
+    text-align: center;
+    padding: 8px;
+}
+
+
+/*footer end*/
