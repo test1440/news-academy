@@ -165,9 +165,23 @@ nav a {
 .offers .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    position: reletive; 
 }
 
+.offers .container::before {
+    content: "";
+    position: absolute;
+    width:600px;
+    height:600px;
+    
+    background-color: white;
+  /*  z-index: -1; */
+    border-radius: 50%;
+    left: 20%;
+
+    }
+    
 .offers .sub-title {
     font-weight: bold;
     font-size: 17px;
