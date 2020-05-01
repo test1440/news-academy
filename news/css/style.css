@@ -193,7 +193,7 @@ nav a {
     clip: rect(70px, auto, 634px, auto);
     }
     
-.offers-content {    
+.offers-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -212,6 +212,7 @@ nav a {
     line-height: 20px;
     letter-spacing: 2px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .offers-discription {
@@ -272,11 +273,17 @@ nav a {
     background-color: #FF7931;
 }
 
-.button img {
+/*
+.button::before {
     position: absolute; 
     top: 537;
     left: 628px;
+    background-image: url("../img/Arrow-forward.svg");
+    width: 24px;
+    height: 25px;
+    background-color: #000000;    
 }
+*/
 
 /*offers end*/
 
