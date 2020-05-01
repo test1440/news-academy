@@ -30,7 +30,7 @@ img {
   }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -60,9 +60,8 @@ nav ul {
 }
 
 nav li {
-    height: 120px;
-    padding-top: 45px;
-    padding-bottom: 55px;
+    height: 110px;
+    padding: 45px 0;
     text-align: center;
 }
 
@@ -72,6 +71,7 @@ nav a {
     letter-spacing: 2px;
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 /*header end*/
 
@@ -91,12 +91,14 @@ nav a {
 
 .promo-img {
     margin: 0 auto;
-    margin-top: 38px;
+    margin-top: 47px;
 }
 
 .promo h2 {
-    margin-top: 23px;
+    margin-top: 26px;
+    margin-bottom: 0;
     font-size: 72px;
+    font-weight: normal;
     line-height: 84px;
     text-align: center;
     letter-spacing: 2px;
@@ -106,7 +108,7 @@ nav a {
 
 .promo-discription {
     margin: 0 auto;
-    margin-top: 52px;
+    margin-top: 122px;
     width: 455px;
 }
 
@@ -120,30 +122,32 @@ nav a {
 
 /*reviews start*/
 
+.reviews {
+    margin-bottom: 53px;
+}
+
 .reviews h2 {
+    margin: 45px 0 20px;
     font-weight: bold;
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 2px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .reviews-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; 
 }
 
 .reviews-list li {
-    margin: 29px;
+    width: 370px;
 }
-
-/*
-.reviews-item img {    
-    height: auto;
-}
-*/
 
 .reviews-item h3 {
+    margin: 14px 0 9px;
     font-family: "Playfair Display", Arial, sans-serif;     
     font-weight: 900;
     font-size: 23px;
@@ -155,6 +159,7 @@ nav a {
 }
 
 .reviews-item p {
+    margin: 0;
     line-height: 21px;
 }
 
@@ -179,21 +184,27 @@ nav a {
 .offers .container::before {
     content: "";
     position: absolute;
-    top: -20%;
-    left: calc(50% - 700px / 2);
-    width:700px;
-    height:700px;
+    top: -75px;
+    left: calc(50% - 707px / 2);
+    width:707px;
+    height:707px;
     background-color: white;
     border-radius: 50%;
-    clip: rect(50px, auto, auto, auto);
+    clip: rect(70px, auto, 634px, auto);
     }
     
-.offers-content {
-    z-index: 1;
+.offers-content {    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
     }
+
+.offers-content ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .offers .sub-title {
     font-weight: bold;
@@ -206,6 +217,10 @@ nav a {
 .offers-discription {
     margin: 0 auto;    
     width: 365px;
+}
+
+.offers-item:nth-child(2) {
+    margin: 25px 0;
 }
 
 .offers-item:first-child::before {
@@ -223,10 +238,11 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);    
-    top: 65%;
+    top: 319px;
 }
 
 .offers-item h3 {
+    margin-bottom: 7px;
     font-family: "Playfair Display", Arial, sans-serif;   
     font-weight: 900;
     font-size: 23px;
@@ -239,12 +255,13 @@ nav a {
     text-align: center;
 }
 
-.button {
-    width: 170px;
-    height: 47px;
+.button {   
     margin: 0 auto;
-    text-align: center;
+    margin-top: 48px;
     padding: 18px;
+    width: 170px;
+    height: 47px;    
+    text-align: center;
     font-weight: bold;
     font-size: 12px;
     line-height: 14px;
@@ -253,7 +270,12 @@ nav a {
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #FF7931;
+}
 
+.button img {
+    position: absolute; 
+    top: 528px;
+    left: 628px;
 }
 
 /*offers end*/
@@ -296,6 +318,7 @@ nav a {
     line-height: 18px;
     color: #ffffff;
     text-decoration: none;
+    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -304,9 +327,9 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-between;    
     align-items: center;
-    width: 180px;
+    width: 168px;
     margin: 0 auto;
-    margin-top: 42px;    
+    margin-top: 39px;    
     padding-bottom: 46px;
 }
 
