@@ -137,6 +137,12 @@ nav a {
     margin: 29px;
 }
 
+/*
+.reviews-item img {    
+    height: auto;
+}
+*/
+
 .reviews-item h3 {
     font-family: "Playfair Display", Arial, sans-serif;     
     font-weight: 900;
@@ -173,7 +179,7 @@ nav a {
 .offers .container::before {
     content: "";
     position: absolute;
-    top: -33%;
+    top: -20%;
     left: calc(50% - 700px / 2);
     width:700px;
     height:700px;
@@ -197,23 +203,28 @@ nav a {
     text-align: center;
 }
 
-.offers-item:first-child::before,
-.offers-item:nth-child(2)::before {
-    content: "";
-    position: absolute;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-    width:100px;
-    height:1px;
-    left: calc(50% - 700px / 2);
-    z-index: 2;
+.offers-discription {
+    margin: 0 auto;    
+    width: 365px;
 }
 
-/*
-.offers-item:first-child,
-.offers-item:nth-child(2) {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+.offers-item:first-child::before {
+    content: "";
+    position: absolute;    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width:100px;
+    left: calc(50% - 50px);
+    top: 40%;
 }
-*/
+
+.offers-item:nth-child(2)::before {
+    content: "";
+    position: absolute;    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width:100px;
+    left: calc(50% - 50px);    
+    top: 65%;
+}
 
 .offers-item h3 {
     font-family: "Playfair Display", Arial, sans-serif;   
