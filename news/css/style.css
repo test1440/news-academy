@@ -231,7 +231,7 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);
-    top: 40%;
+    top: 197px;
 }
 
 .offers-item:nth-child(2)::before {
@@ -240,7 +240,7 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);    
-    top: 319px;
+    top: 310px;
 }
 
 .offers-item h3 {
