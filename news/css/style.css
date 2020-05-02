@@ -231,7 +231,7 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);
-    top: 197px;
+    top: 38%;
 }
 
 .offers-item:nth-child(2)::before {
@@ -240,7 +240,7 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);    
-    top: 310px;
+    top: 60%;
 }
 
 .offers-item h3 {
@@ -278,7 +278,7 @@ nav a {
     content: "";    
     background-image: url("../img/Arrow-forward.svg");
     position: absolute; 
-    top: 479px;
+    top: 93.2%;
     left: 628px;
     width: 24px;
     height: 25px;
