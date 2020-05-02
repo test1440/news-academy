@@ -198,6 +198,7 @@ nav a {
     flex-direction: column;
     justify-content: space-between;
     z-index: 1;
+    height: 530px;
     }
 /*
 .offers-content ul {
