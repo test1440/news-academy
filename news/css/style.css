@@ -196,18 +196,19 @@ nav a {
 .offers-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     z-index: 1;
     height: 530px;
     }
-/*
+
 .offers-content ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-*/
+
 .offers .sub-title {
+    margin-bottom: 12px;
     margin-top: 33px;
     font-weight: bold;
     font-size: 17px;
@@ -222,8 +223,12 @@ nav a {
     width: 365px;
 }
 
+.offers-item {
+    position: relative;
+}
+
 .offers-item:nth-child(2) {
-    margin: 25px 0;
+    margin: 40px 0;
 }
 
 .offers-item:first-child::before {
@@ -232,7 +237,7 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);
-    top: 43%;
+    top: 115px;
 }
 
 .offers-item:nth-child(2)::before {
@@ -241,10 +246,11 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);    
-    top: 64%;
+    top: 115px;
 }
 
 .offers-item h3 {
+    margin: 0;
     margin-bottom: 7px;
     font-family: "Playfair Display", Arial, sans-serif;   
     font-weight: 900;
@@ -258,10 +264,11 @@ nav a {
     text-align: center;
 }
 
-.button {   
+.button {
+    position: relative;
     margin: 0 auto;
-    margin-top: 5px;
-    padding: 17px;
+    margin-top: 30px;
+    padding: 17px 50px 17px 20px;
     width: 170px;
     height: 47px;    
     text-align: center;
@@ -279,8 +286,8 @@ nav a {
     content: "";    
     background-image: url("../img/Arrow-forward.svg");
     position: absolute; 
-    top: 93.2%;
-    left: 628px;
+    top: 11px;
+    right: 29px;
     width: 24px;
     height: 25px;
     background-color: #FF7931;    
