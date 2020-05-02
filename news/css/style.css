@@ -232,7 +232,7 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);
-    top: 38%;
+    top: 43%;
 }
 
 .offers-item:nth-child(2)::before {
@@ -241,7 +241,7 @@ nav a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width:100px;
     left: calc(50% - 50px);    
-    top: 60%;
+    top: 64%;
 }
 
 .offers-item h3 {
@@ -260,8 +260,8 @@ nav a {
 
 .button {   
     margin: 0 auto;
-    margin-top: 48px;
-    padding: 18px;
+    margin-top: 5px;
+    padding: 17px;
     width: 170px;
     height: 47px;    
     text-align: center;
