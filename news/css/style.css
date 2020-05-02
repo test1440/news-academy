@@ -53,6 +53,10 @@ ul {
     padding: 0;
 }
 
+ul a:hover {
+    color: orange;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -267,7 +271,7 @@ nav a {
 .button {
     position: relative;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 33px;
     padding: 17px 50px 17px 20px;
     width: 170px;
     height: 47px;    
@@ -291,6 +295,10 @@ nav a {
     width: 24px;
     height: 25px;
     background-color: #FF7931;    
+}
+
+.button:hover {
+    opacity: 0.75;
 }
 
 /*offers end*/
