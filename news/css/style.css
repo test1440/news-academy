@@ -199,14 +199,15 @@ nav a {
     justify-content: space-between;
     z-index: 1;
     }
-
+/*
 .offers-content ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
+*/
 .offers .sub-title {
+    margin-top: 33px;
     font-weight: bold;
     font-size: 17px;
     line-height: 20px;
@@ -274,11 +275,11 @@ nav a {
 }
 
 .button::before {
-    content: "";
-    position: absolute; 
-    top: 528px;
-    left: 628px;
+    content: "";    
     background-image: url("../img/Arrow-forward.svg");
+    position: absolute; 
+    top: 479px;
+    left: 628px;
     width: 24px;
     height: 25px;
     background-color: #FF7931;    
