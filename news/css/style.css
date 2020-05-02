@@ -208,7 +208,7 @@ nav a {
 }
 
 .offers .sub-title {
-    margin-bottom: 12px;
+    margin-bottom: 35px;
     margin-top: 33px;
     font-weight: bold;
     font-size: 17px;
@@ -228,7 +228,7 @@ nav a {
 }
 
 .offers-item:nth-child(2) {
-    margin: 40px 0;
+    margin: 32px 0;
 }
 
 .offers-item:first-child::before {
@@ -251,7 +251,7 @@ nav a {
 
 .offers-item h3 {
     margin: 0;
-    margin-bottom: 7px;
+    margin-bottom: -5px;
     font-family: "Playfair Display", Arial, sans-serif;   
     font-weight: 900;
     font-size: 23px;
