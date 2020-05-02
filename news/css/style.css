@@ -273,17 +273,16 @@ nav a {
     background-color: #FF7931;
 }
 
-/*
 .button::before {
+    content: "";
     position: absolute; 
-    top: 537;
+    top: 528px;
     left: 628px;
     background-image: url("../img/Arrow-forward.svg");
     width: 24px;
     height: 25px;
-    background-color: #000000;    
+    background-color: #FF7931;    
 }
-*/
 
 /*offers end*/
 
